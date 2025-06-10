@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Our Alumni - Prime Defenders Academy</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    main {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: 0 auto;
+      color: #fff;
+    }
+    .alumni-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+    .alumni-card {
+      background: #222;
+      border-radius: 8px;
+      overflow: hidden;
+      text-align: center;
+      padding: 1rem;
+    }
+    .alumni-card img {
+      width: 100%;
+      border-radius: 6px;
+      height: auto;
+    }
+    .alumni-card h3 {
+      margin: 0.8rem 0 0.4rem;
+    }
+    header > a {
+      color: inherit;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 1.25rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="index.html">Prime Defenders Academy</a>
+    <nav>
+      <a href="alumni.html">Our Alumni</a>
+      <a href="professors.html">Our Professors</a>
+      <a href="steps.html">Your first steps</a>
+      <a href="about.html">About PD-A</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Our Alumni</h1>
+    <p>PD-A alumni are celebrated for their accomplishments in heroism, leadership, and innovation. Here's a look at some of our finest graduates.</p>
+
+    <div class="alumni-grid">
+      <div class="alumni-card">
+        <img src="student.jpg" alt="Linda Malvora" />
+        <h3>Linda Malvora</h3>
+        <p>Renowned hero and peace ambassador. Class of 2023.</p>
+      </div>
+      <div class="alumni-card">
+        <img src="student2.jpg" alt="Jordan Rios" />
+        <h3>Jordan Rios</h3>
+        <p>Inventor of the first nanoshield. Class of 2024.</p>
+      </div>
+      <div class="alumni-card">
+        <img src="happy1.jpg" alt="Mira Tan" />
+        <h3>Mira Tan</h3>
+        <p>Environmental defender and founder of TerraGuard. Class of 2022.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer style="display: flex; flex-wrap: wrap; align-items: flex-start; gap: 4rem;">
+    <div class="footer-column">
+      <h4>USEFUL LINKS</h4>
+      <a href="contact.html">Contact Us</a>
+      <a href="policy.html">Campus Policy</a>
+      <a href="accessibility.html">Accessibility AT PD-A</a>
+    </div>
+    <div class="footer-column">
+      <h4>Public Safety</h4>
+      <a href="campus.html">PD-A Campus</a>
+      <a href="privacy.html">Privacy Policy</a>
+    </div>
+    <div class="footer-column">
+      <h4>VISITING PD-A</h4>
+      <a href="tours.html">Campus Tours</a>
+      <a href="visitor.html">PD-A Visitor Center</a>
+      <a href="maps.html">Maps and Directions</a>
+      <a href="museums.html">Museums and Libraries</a>
+    </div>
+    <div class="footer-column" style="margin-left: auto;">
+      <img src="happy1.jpg" alt="PD-A Visitor" style="height: 200px; border-radius: 8px;" />
+    </div>
+    <div class="footer-bottom" style="width: 100%; text-align: center; margin-top: 1rem;">
+      &copy; 2025 PD-Academy University. All Rights Reserved.
+    </div>
+  </footer>
+</body>
+</html>
